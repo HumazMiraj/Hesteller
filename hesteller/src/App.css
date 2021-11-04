@@ -1,0 +1,169 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap');
+/* body */
+body {
+    font-family: "Maven Pro";
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-red{
+    color: #990100;
+}
+.text-pink{
+    color: #DE5B6D;
+}
+.text-grey{
+    color: #767676;
+}
+.text-black{
+    color: #000;
+}
+h1{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+h3{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+}
+h4{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+}
+.custom-container{
+    max-width: 980px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    min-width: 100px;
+    height: 50px;
+    background: #DE5B6D;
+    border: 2px solid #DE5B6D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 35px;
+}
+.btn-primary:hover{
+    background: transparent;
+    border: 2px solid #DE5B6D;
+    color: #DE5B6D;
+}
+.banner-section {
+    padding: 80px 0;
+    background: url(images/banner-bg.jpg);
+    background-color: #ffffffc7;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-area .logo {
+    margin-bottom: 50px;
+}
+.content-area h1 {
+    margin-bottom: 50px;
+}
+.content-area h4 {
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+.banner-bottom-section , .with-clients-section {
+    padding: 50px 0;
+}
+.with-clients-section {
+    border-top: 1px solid #ccc;
+}
+h2.heading{
+    margin-bottom: 80px;
+}
+.with-clients-section .item {
+    max-width: 350px;
+    margin: 0 auto 70px;
+}
+.with-clients-section .item .image {
+    margin-bottom: 20px;
+}
+.unique-section{
+    padding: 80px 0;
+    background: url(images/unique-bg.jpg);
+    background-color: #000000c7;
+    color: #fff;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.unique-section .item {
+    position: relative;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.unique-section .item span {
+    font-size: 70px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #DE5B6D;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0.8;
+}
+.unique-section .item p {
+    position: relative;
+    font-size: 18px;
+}
+.investment-section{
+    padding: 70px 0;
+    background: #B9D4DC;
+}
+.investment-section .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 50px;
+}
+/* responsive media queries */
+
+@media screen and (max-width: 1400px){
+   
+}
+
+@media screen and (max-width: 1280px){
+   
+}
+
+@media screen and (max-width: 991px){
+   
+}
+
+@media screen and (max-width: 767px){
+   
+}
+
+@media screen and (max-width: 575px){
+
+    
+}
+@media screen and (max-width: 480px){
+   
+}
+
