@@ -141,6 +141,17 @@ h2.heading{
     font-size: 20px;
     padding-right: 50px;
 }
+.portfolio-section {
+    padding: 50px 0;
+}
+.portfolio-section .image {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 0;
+}
 /* responsive media queries */
 
 @media screen and (max-width: 1400px){
