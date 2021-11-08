@@ -92,7 +92,7 @@ h4{
 }
 .banner-section {
     padding: 80px 0;
-    background: url(images/banner-bg.jpg);
+    background: url(images/unique-bg.jpg);
     background-color: #ffffffc7;
     background-blend-mode: color;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ h2.heading{
 }
 .unique-section{
     padding: 80px 0;
-    background: url(images/unique-bg.jpg);
+    background: url(images/banner-bg.jpg);
     background-color: #000000c7;
     color: #fff;
     background-blend-mode: color;
