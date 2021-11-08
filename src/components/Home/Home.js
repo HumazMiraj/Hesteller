@@ -66,7 +66,7 @@ function Home() {
             </section>
             <section className="unique-section text-center">
                 <div className="custom-container">
-                    <h2 className=" heading">What makes Hesteller Unique</h2>
+                    <h2 className=" heading">What Makes Us Hesteller</h2>
                     <div className="row">
                         <div className="col-sm-6">
                             <div className="item">
@@ -105,14 +105,14 @@ function Home() {
                 <div className="custom-container">
                     <h2 className=" heading">What we look for in founders we work with</h2>
                     <div className="row">
-                        <div className="col-sm-6">
+                        <div className="col-sm-6 order-2 order-sm-1">
                             <div className="content">
                                 <p>Hesteller builds technology products that have the potential to scale to multi-billion dollar
                                     companies.</p>
                                 <p>We are dynamic and global focused</p>
                             </div>
                         </div>
-                        <div className="col-sm-6">
+                        <div className="col-sm-6 order-1 order-sm-2">
                             <div className="image">
                                 <img src="images/Investment-Criteria.png" alt="" className="img-fluid" />
                             </div>
@@ -227,15 +227,57 @@ function Home() {
                                 <img src="images/logo20.png" alt="" className="img-fluid" />
                             </div>
                         </div>
-
-
-
-
-
-
+                    </div>
+                </div>
+            </section>
+            <section className="who-we-are text-center">
+                <div className="custom-container">
+                    <h2 className=" heading text-pink">Who We Are</h2>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="item">
+                                <div className="image">
+                                    <img src="images/Male.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <h3>Sesugh Yaji</h3>
+                                <p>Founding Partner<br/>Hesteller</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="item">
+                                <div className="image">
+                                    <img src="images/lady.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <h3>Idaresit Yaji</h3>
+                                <p>Founding Partner<br/>Hesteller</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="item">
+                                <div className="image">
+                                    <img src="images/client1.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <h3>Patrick Ramseyer</h3>
+                                <p>Global Partner & Advisor<br/>Getvisbility</p>
+                            </div>
+                        </div>
+                        
 
                     </div>
+                </div>
+            </section>
+            <section className="visit-blog text-center">
+                <div className="custom-container">
+                    <div className="btn-wrapper"><a href="#" className="btn btn-primary">Visit our blog</a></div>
 
+                </div>
+            </section>
+            <section className="footer-sec text-center">
+                <div className="custom-container">
+                    <h2>Learn from founders like you who are building and running startups around the world</h2>
+                    <div className="btn-wrapper"><a href="#" className="btn btn-secondary">Learn more about Hesteller </a></div>
+                   <p> <a href="#">Stay in the loop by following us on twitter</a></p>
+                    <p>Made with ❤️ in Lagos 🇳🇬</p>
 
                 </div>
             </section>
