@@ -487,7 +487,7 @@ h2.heading{
         line-height: 22px;
     }
     .content-area .logo , .content-area h1 ,.content-area h4{
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .btn-primary{
         font-size: 16px;
@@ -535,14 +535,14 @@ h2.heading{
     .unique-section .item p {
         font-size: 15px;
     }
-    .banner-section {
+    /* .banner-section {
         padding: 25px 0;
-    }
+    } */
     .banner-bottom-section, .with-clients-section {
         padding: 20px  0;
     }
     .content-area .logo, .content-area h1, .content-area h4 {
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
     }
     h2.heading {
         margin-bottom: 20px;

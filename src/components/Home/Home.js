@@ -16,11 +16,11 @@ function Home() {
 
                 </div>
             </section>
-            <section className="banner-bottom-section text-center">
+            {/* <section className="banner-bottom-section text-center">
                 <div className="custom-container">
                     <h3 className="text-pink"><b>We partner with you for the long term</b></h3>
                 </div>
-            </section>
+            </section> */}
             <section className="with-clients-section text-center">
                 <div className="custom-container">
                     <h2 className="text-pink heading">With clients from 62+ countries</h2>
