@@ -255,6 +255,24 @@ function Home() {
                         <div className="col-md-4">
                             <div className="item">
                                 <div className="image">
+                                    <img src="images/author-1.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <h3>Joshua A</h3>
+                                <p>Co founder<br/>Hesteller</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="item">
+                                <div className="image">
+                                    <img src="images/author-2.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <h3>Amanda</h3>
+                                <p>Co founder<br/>Hesteller</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="item">
+                                <div className="image">
                                     <img src="images/client1.jpg" alt="" className="img-fluid" />
                                 </div>
                                 <h3>Patrick Ramseyer</h3>
