@@ -10,7 +10,7 @@ body {
     color: #990100;
 }
 .text-pink{
-    color: #DE5B6D;
+    color: #FDAAA6;
 }
 .text-grey{
     color: #767676;
@@ -48,14 +48,14 @@ h4{
     margin: 0 auto;
 }
 
-.btn-primary {
+.btn-primary,.btn-primary:focus {
     min-width: 100px;
     height: 50px;
-    background: #DE5B6D;
-    border: 2px solid #DE5B6D;
+    background: #FDAAA6;
+    border: 2px solid #FDAAA6;
     box-sizing: border-box;
     border-radius: 5px;
-    color: #fff;
+    color: #212529;
     font-size: 20px;
     font-weight: bold;
     padding: 0 35px;
@@ -65,9 +65,9 @@ h4{
     margin: auto;
 }
 .btn-primary:hover{
-    background: transparent;
-    border: 2px solid #DE5B6D;
-    color: #DE5B6D;
+    background: #A1D9D4;
+    border: 2px solid #A1D9D4;
+    color: #212529;
 }
 .btn-secondary {
     min-width: 100px;
@@ -142,7 +142,7 @@ h2.heading{
     font-size: 70px;
     line-height: 40px;
     font-weight: 900;
-    color: #DE5B6D;
+    color: #FDAAA6;
     position: absolute;
     top: -10px;
     left: -10px;
@@ -212,7 +212,7 @@ h2.heading{
 }
 .footer-sec {
     padding: 50px 0 20px;
-    background: #de5b6d;
+    background: #FDAAA6;
     color: #fff;
 }
 .footer-sec .btn-wrapper {
@@ -467,6 +467,7 @@ h2.heading{
         text-align: left;
         margin: 0;
     }
+
 }
 
 @media screen and (max-width: 575px){
@@ -511,7 +512,16 @@ h2.heading{
         margin: 0;
     }
     
-   
+    .unique-section .item {
+        padding-left: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unique-section .item span {
+        top: 0;
+        left: 00;
+    }
 }
 @media screen and (max-width: 480px){
     h1 {

@@ -23,7 +23,7 @@ function Home() {
             </section> */}
             <section className="with-clients-section text-center">
                 <div className="custom-container">
-                    <h2 className="text-pink heading">With clients from 62+ countries</h2>
+                    <h2 className="text- heading">With clients from 62+ countries</h2>
                     <div className="row">
                         <div className="col-sm-6">
                             <div className="item">
@@ -125,7 +125,7 @@ function Home() {
             </section>
             <section className="portfolio-section text-center">
                 <div className="custom-container">
-                    <h2 className=" heading text-pink">Portfolio</h2>
+                    <h2 className=" heading text-">Portfolio</h2>
                     <div className="row">
                         {/* <div className="col-sm-4">
                             <div className="image">
@@ -232,7 +232,7 @@ function Home() {
             </section>
             <section className="who-we-are text-center">
                 <div className="custom-container">
-                    <h2 className=" heading text-pink">Who We Are</h2>
+                    <h2 className=" heading text-">Who We Are</h2>
                     <div className="row">
                         <div className="col-md-4">
                             <div className="item">
