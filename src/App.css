@@ -154,7 +154,7 @@ h2.heading{
 }
 .investment-section{
     padding: 70px 0;
-    background: #B9D4DC;
+    background: #A1D9D4;
 }
 .investment-section .content{
     display: flex;
@@ -200,7 +200,7 @@ h2.heading{
     border-radius: 50%;
 }
 .visit-blog {
-    background: #b9d4dc;
+    background: #A1D9D4;
     padding: 80px 0;
 }
 .visit-blog .btn-wrapper {
@@ -209,6 +209,10 @@ h2.heading{
 .visit-blog .btn-primary {
     max-width: 100%;
     width: 300px;
+    border: 1px solid #fdaaa6;
+}
+.visit-blog .btn-primary:hover {
+    /* color: #fdaaa6; */
 }
 .footer-sec {
     padding: 50px 0 20px;
@@ -287,7 +291,6 @@ h2.heading{
     }
     .investment-section{
         padding: 60px 0;
-        background: #B9D4DC;
     }
     .investment-section .content{
         font-size: 18px;
